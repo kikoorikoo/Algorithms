@@ -6,3 +6,10 @@ function move(n, a, b, c) {
   }
 }
 move(4, "A", "B", "C");
+
+
+//Alternative Towers of Hanoi solution - 3 rods, n discs
+
+function towers(discs){
+	return (Math.pow(2, discs) -1);
+}
